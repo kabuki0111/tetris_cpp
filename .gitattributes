@@ -1,0 +1,7 @@
+# テキストは自動判定し、リポジトリ内では LF で保存する
+* text=auto eol=lf
+
+# バイナリとして扱う（改行コードの変換や差分表示をしない）
+*.wav binary
+*.png binary
+*.exe binary
